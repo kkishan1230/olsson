@@ -1,38 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #ffffff;
+}
+
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  opacity: 0.8;
+}
+
+img {
+  width: 100%;
+}
+
 .App {
-  text-align: center;
+  font-family: "satoshi light";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Clash Display */
+@font-face {
+  font-family: "clash bold";
+  src: url(./fonts/clash_Display/ClashDisplay-Bold.otf) format("opentype");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "clash light";
+  src: url(./fonts/clash_Display/ClashDisplay-Light.otf) format("opentype");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "clash medium";
+  src: url(./fonts/clash_Display/ClashDisplay-Medium.otf) format("opentype");
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "clash regular";
+  src: url(./fonts/clash_Display/ClashDisplay-Regular.otf) format("opentype");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clash_regular {
+  font-family: "clash regular";
+}
+
+@font-face {
+  font-family: "clash semibold";
+  src: url(./fonts/clash_Display/ClashDisplay-Semibold.otf) format("opentype");
+}
+
+.clash_semiBold {
+  font-family: "clash semibold";
+}
+
+/* Satoshi */
+
+@font-face {
+  font-family: "satoshi black";
+  src: url(./fonts/satoshi/Satoshi-Black.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "satoshi bold";
+  src: url(./fonts/satoshi/Satoshi-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "satoshi light";
+  src: url(./fonts/satoshi/Satoshi-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "satoshi medium";
+  src: url(./fonts/satoshi/Satoshi-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "satoshi regular";
+  src: url(./fonts/satoshi/Satoshi-Regular.otf) format("opentype");
+}
+
+/* syne */
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+
+/* grid Gradient background*/
+.gridBg {
+  background-image: linear-gradient(to bottom, black, transparent, black 82%);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
 }
