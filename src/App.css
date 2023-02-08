@@ -95,7 +95,12 @@ img {
 
 /* grid Gradient background*/
 .gridBg {
-  background-image: linear-gradient(to bottom, black, transparent, black 82%);
+  background-image: linear-gradient(
+    to bottom,
+    #0f0f0f 2%,
+    transparent,
+    #0f0f0f 82%
+  );
   width: 100%;
   height: 100%;
   z-index: 2;

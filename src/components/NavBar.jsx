@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const NavBar = () => {
   return (
-    <nav className="flex max-w-[1800px] mx-[auto] py-[43px] justify-between items-center">
+    <nav className="flex max-w-[1800px] mx-[auto] py-[43px] justify-between items-center xl:px-[30px]">
       <NavLink to="/">
         <img src={Logo} alt="" />
       </NavLink>

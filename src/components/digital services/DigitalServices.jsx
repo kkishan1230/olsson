@@ -13,10 +13,12 @@ import socialM from "../../images/socialMedia.svg";
 
 const DigitalServices = () => {
   return (
-    <div className="max-w-[1800px] mx-auto">
-      <div className="flex  justify-between  items-center mt-[160px]">
-        <div className="smallTexts">Clients I’Ve worked with</div>
-        <div className="flex max-w-[1265px] gap-[165px] items-center">
+    <div className="max-w-[1800px] mx-auto xl:px-[30px]">
+      <div className="flex items-center justify-between mt-[160px]">
+        <div className="smallTexts w-fit mr-[120px]">
+          Clients I’Ve worked with
+        </div>
+        <div className="flex max-w-[1265px] justify-between items-center flex-1">
           <div>
             <img src={superFood} alt="" />
           </div>
@@ -38,14 +40,14 @@ const DigitalServices = () => {
         </div>
       </div>
       <div className="flex mt-[192px]">
-        <div className="w-[50%] text-[80px] leading-[110%] clash_semiBold uppercase">
+        <div className="w-[50%] clash_heading">
           <div className="text-[#0f0f0f] textWhiteStroke">digital</div>
           <div>services</div>
           <div className="smallTexts uppercase underline mt-8 underline-offset-4">
             Explore Services
           </div>
         </div>
-        <div className="w-[50%] flex flex-col gap-[96px]">
+        <div className="w-[50%] flex flex-col gap-[96px] ">
           <Services
             img={videoCreation}
             head="video creation"

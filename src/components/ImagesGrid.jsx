@@ -9,14 +9,13 @@ import mobile from "../images/watchingMobile.png";
 import smoke from "../images/smoke.png";
 import girlImg3 from "../images/girlimg3.png";
 import userImg from "../images/userImage.png";
-import explore from "../images/explore.png";
 
 const ImagesGrid = () => {
   return (
-    <div className="relative  h-[1200px] flex">
+    <div className="relative  h-[1200px] flex overflow-hidden">
       <div className="gridBg absolute"></div>
-      <div className="flex gap-[34px] justify-center absolute">
-        <div className="flex flex-col gap-8">
+      <div className="flex gap-[34px] justify-center absolute left-[50%] translate-x-[-50%] min-w-[1920px]">
+        <div className="flex flex-col gap-8 mt-[64px]">
           <div>
             <img src={man} alt="" className="rounded-[16px] opacity-80" />
           </div>
@@ -38,7 +37,7 @@ const ImagesGrid = () => {
             <img src={car} alt="" className="rounded-[16px] opacity-80" />
           </div>
         </div>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 mt-[64px]">
           <div>
             <img src={mobile} alt="" className="rounded-[16px] opacity-80" />
           </div>
@@ -50,7 +49,7 @@ const ImagesGrid = () => {
           </div>
         </div>
       </div>
-      <div className="z-9999 max-w-[1600px] mx-auto relative z-10 h-fit self-end ">
+      <div className="max-w-[1600px] mx-auto relative xl:max-w-[1660px] xl:px-[30px] h-fit self-end z-[2]">
         <div className="flex items-center gap-8 mb-8">
           <div>
             <img src={userImg} alt="" className="rounded-[8px]" />
@@ -62,10 +61,10 @@ const ImagesGrid = () => {
         </div>
         <div className="text-[80px] leading-[130%] tracking-wider clash_regular">
           Creating captivating video and motion designs that tell your brand's
-          story and are sure to grab the attention of your audience.{" "}
-          <div className="w-[387px] absolute bottom-[10px] left-[630px] cursor-pointer hover:opacity-80">
-            <img src={explore} alt="" />
-          </div>
+          story and are sure to grab the attention of your audience.
+          <span className="textWhiteStroke text-transparent cursor-pointer font-clash_semibold opacity-80">
+            Explore ↓
+          </span>
         </div>
       </div>
     </div>

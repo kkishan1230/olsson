@@ -4,7 +4,7 @@ import olsson from "../images/olsson.png";
 
 const CompanyName = () => {
   return (
-    <div className="flex max-w-[1800px] gap-[80px] mx-auto mt-[64px]">
+    <div className="flex max-w-[1800px] gap-[80px] mx-auto mt-[64px] xl:px-[30px]">
       <div>
         <img src={lynn} alt="" />
       </div>

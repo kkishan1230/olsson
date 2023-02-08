@@ -6,7 +6,7 @@ import smoking from "../../images/smoking.png";
 
 const ImageWithHead = () => {
   return (
-    <div className="max-w-[1920px] mx-auto mt-[96px] px-[60px]">
+    <div className="max-w-[1920px] mx-auto mt-[96px] px-[30px]">
       <div>
         <ImageCard
           img={lady}

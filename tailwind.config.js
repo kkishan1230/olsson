@@ -5,6 +5,12 @@ module.exports = {
     fontFamily: {
       clash_medium: "clash medium",
       syne: "syne",
+      clash_semibold: "clash semibold",
+      satoshi_light: "satoshi medium",
+    },
+    screens: {
+      xl: { max: "1850px" },
+      l: { max: "1600px" },
     },
   },
   plugins: [],
