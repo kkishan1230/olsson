@@ -2,17 +2,12 @@ import React from "react";
 
 const SelectedWork = () => {
   return (
-    <div className="relative mt-[192px] overflow-x-hidden h-[145px] overflow-hidden md:mt-[120px] md:h-[80px]  sm:h-[36px] sm:mt-[80px]">
-      <div className="flex justify-center gap-[48px] w-fit absolute left-[50%] translate-x-[-50%] md:gap-0 l:gap-[24px]">
-        <div className="w-[905px] uppercase tracking-wider clash_semiBold text-[96px] text-[#0f0f0f] textWhiteStroke l:text-[64px] l:w-[610px] text-center md:text-[36px] md:w-[360px] sm:text-[24px] sm:w-[240px]">
-          Selected Work
-        </div>
-        <div className="w-[905px] text-center uppercase tracking-wider clash_semiBold text-[96px] l:text-[64px] l:w-[610px]  md:text-[36px] md:w-[360px] sm:text-[24px] sm:w-[240px]">
-          Selected Work
-        </div>
-        <div className="w-[905px] text-center uppercase tracking-wider clash_semiBold text-[96px] text-[#0f0f0f] textWhiteStroke l:text-[64px] l:w-[610px]  md:text-[36px] md:w-[360px] sm:text-[24px] sm:w-[240px]">
-          Selected Work
-        </div>
+    <div className="flex gap-[64px] mt-[192px] ">
+      <div className="text-[80px] font-clash_semibold uppercase ml-[64px] md:text-[56px]">
+        Selected work
+      </div>
+      <div className="text-[80px] font-clash_semibold uppercase text-[#0f0f0f] textWhiteStroke  md:text-[56px]">
+        Selected work
       </div>
     </div>
   );

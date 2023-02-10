@@ -1,4 +1,5 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
 import CompanyName from "../CompanyName";
 import DigitalServices from "../digital services/DigitalServices";
 import Copyright from "../footer/Copyright";
@@ -15,17 +16,40 @@ import TopBar from "../TopBar";
 const FrontPage = () => {
   return (
     <div>
-      <TopBar />
+      <Marquee loop={0} className="bg-[#5C43D2]" gradient={false}>
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+      </Marquee>
       <NavBar />
       <hr className="border-b-[#ffffff] opacity-[12%] h-[1px]" />
       <CompanyName />
       <ImagesGrid />
       <DigitalServices />
-      <SelectedWork />
+      <Marquee gradient={false} speed={50}>
+        <SelectedWork />
+        <SelectedWork />
+      </Marquee>
       <ImageWithHead />
       <MotionAwards />
       <Testimonial />
-      <TopBar />
+      <Marquee loop={0} className="bg-[#5C43D2]" gradient={false}>
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+      </Marquee>
       <LetsConnect />
       <hr className="border-b-[#ffffff] opacity-[12%] h-[1px]" />
       <Footer />
