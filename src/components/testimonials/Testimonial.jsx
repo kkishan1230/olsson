@@ -9,7 +9,7 @@ import inVision from "../../images/invisionSquare.svg";
 
 const Testimonial = () => {
   return (
-    <div className="max-w-[1720px] px-[60px] mx-[auto] mb-[192px] md:px-[30px] md:mb-[140px]">
+    <div className="max-w-[1720px] px-[60px] mx-[auto] mb-[192px] md:px-[30px] md:mb-[140px] sm:mt-[80px] sm:px-[10px] sm:mb-[80px]">
       <Heading />
       <div className="flex  justify-between l:flex-wrap l:gap-[40px] md:mt-0">
         <div className="flex flex-col gap-8 w-[32%] l:w-[100%] l:flex-row md:flex-col">

@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       <div className="max-w-[1222px] flex justify-between l:w-[70%] md:w-[100%] md:flex-wrap md:gap-[30px]">
-        <div className="w-[375px] flex flex-col gap-8 l:w-auto">
+        <div className="w-[375px] flex flex-col gap-8 l:w-auto sm:gap-4">
           <div className="footer_heading">pages</div>
           <NavLink to="/" className="smallTexts">
             Home
@@ -50,7 +50,7 @@ const Footer = () => {
             <Button text="more templates" />
           </NavLink>
         </div>
-        <div className="w-[375px] l:w-auto flex flex-col gap-8">
+        <div className="w-[375px] l:w-auto flex flex-col gap-8 sm:gap-4">
           <div className="footer_heading">CMS</div>
           <NavLink to="/" className="smallTexts">
             Projects
@@ -68,7 +68,7 @@ const Footer = () => {
             Shop Single
           </NavLink>
         </div>
-        <div className="w-[375px] flex flex-col gap-8 l:w-auto">
+        <div className="w-[375px] flex flex-col gap-8 l:w-auto sm:gap-4">
           <div className="footer_heading">Utility Pages</div>
           <NavLink to="/" className="smallTexts">
             404 Error Page

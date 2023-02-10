@@ -11,7 +11,7 @@ import userImg from "../images/userImage.png";
 
 const ImagesGrid = () => {
   return (
-    <div className="relative  h-[62.5vw] flex overflow-hidden">
+    <div className="relative  h-[62.5vw] flex overflow-hidden sm:h-[80vw]">
       <div className="gridBg absolute"></div>
       <div className="flex gap-[34px] justify-center absolute left-[50%] translate-x-[-50%] min-w-[1920px] md:min-w-[100%] md:gap-2 ">
         <div className="flex flex-col gap-8 mt-[64px] md:mt-[32px] md:gap-2">
@@ -78,21 +78,25 @@ const ImagesGrid = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-[1720px] px-[60px] mx-auto relative h-fit self-end z-[2] l:self-center md:w-[480px] md:px-[30px]">
-        <div className="flex items-center gap-8 mb-8 l:gap-2">
+      <div className="max-w-[1720px] px-[60px] mx-auto relative h-fit self-end z-[2] l:self-center md:w-[480px] md:px-[30px] sm:px-[10px]">
+        <div className="flex items-center gap-8 mb-8 l:gap-2 sm:mb-2">
           <div>
             <img
               src={userImg}
               alt=""
-              className="rounded-[8px] l:rounded-[4px]"
+              className="rounded-[8px] l:rounded-[4px] sm:w-[50px]"
             />
           </div>
           <div>
-            <div className="syne-heading text-white">LYNN OLSSON</div>
-            <div className="smallTexts opacity-70">Visual ARt Director</div>
+            <div className="syne-heading text-white sm:text-[16px]">
+              LYNN OLSSON
+            </div>
+            <div className="smallTexts opacity-70 sm:text-[12px]">
+              Visual ARt Director
+            </div>
           </div>
         </div>
-        <div className="text-[80px] leading-[130%] tracking-wider clash_regular l:text-[48px] md:text-[21px]">
+        <div className="text-[80px] leading-[130%] tracking-wider clash_regular l:text-[48px] md:text-[21px] sm:text-[18px]">
           Creating captivating video and motion designs that tell your brand's
           story and are sure to grab the attention of your audience.
           <span className="textWhiteStroke text-transparent cursor-pointer font-clash_semibold opacity-80">

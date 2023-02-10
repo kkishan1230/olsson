@@ -5,8 +5,8 @@ import Button from "./Button";
 
 const NavBar = () => {
   return (
-    <nav className="flex max-w-[1920px] mx-[auto] py-[43px] justify-between items-center px-[60px] md:px-[30px]">
-      <NavLink to="/">
+    <nav className="flex max-w-[1920px] mx-[auto] py-[43px] justify-between items-center px-[60px] md:px-[30px] sm:py-[20px] sm:px-[10px]">
+      <NavLink to="/" className="sm:w-[70px]">
         <img src={Logo} alt="" />
       </NavLink>
       <div className="flex gap-8 items-center l:hidden">
