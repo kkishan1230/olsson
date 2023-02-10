@@ -13,12 +13,12 @@ import socialM from "../../images/socialMedia.svg";
 
 const DigitalServices = () => {
   return (
-    <div className="max-w-[1800px] mx-auto xl:px-[30px]">
-      <div className="flex items-center justify-between mt-[160px]">
-        <div className="smallTexts w-fit mr-[120px]">
+    <div className="max-w-[1920px] mx-auto px-[60px]">
+      <div className="flex items-center justify-between mt-[160px] l:mt-0 l:flex-col l:gap-[40px]">
+        <div className="smallTexts w-fit mr-[120px] l:mr-0 l:text-[24px] md:text-[18px]">
           Clients I’Ve worked with
         </div>
-        <div className="flex max-w-[1265px] justify-between items-center flex-1">
+        <div className="flex max-w-[1265px] justify-center gap-8 items-center flex-1 l:w-[100%] md:flex-wrap">
           <div>
             <img src={superFood} alt="" />
           </div>
@@ -39,15 +39,19 @@ const DigitalServices = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-[192px]">
-        <div className="w-[50%] clash_heading">
-          <div className="text-[#0f0f0f] textWhiteStroke">digital</div>
-          <div>services</div>
-          <div className="smallTexts uppercase underline mt-8 underline-offset-4">
+      <div className="flex mt-[192px] l:justify-between md:flex-col md:items-center md:gap-[40px] md:mt-[120px]">
+        <div className="w-[50%] clash_heading l:text-[54px] l:w-[40%] md:w-[100%]">
+          <div className="text-[#0f0f0f] textWhiteStroke md:text-center md:text-[32px] md:leading-[32px]">
+            digital
+          </div>
+          <div className="md:text-center md:text-[32px] md:leading-[32px]">
+            services
+          </div>
+          <div className="smallTexts uppercase underline mt-8 underline-offset-4 md:text-center">
             Explore Services
           </div>
         </div>
-        <div className="w-[50%] flex flex-col gap-[96px] ">
+        <div className="w-[50%] flex flex-col gap-[96px] l:w-[60%] md:w-[480px] md:px-[30px] md:gap-[64px]">
           <Services
             img={videoCreation}
             head="video creation"

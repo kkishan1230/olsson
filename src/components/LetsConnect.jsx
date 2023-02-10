@@ -3,12 +3,12 @@ import Button from "./Button";
 
 const LetsConnect = () => {
   return (
-    <div className="py-[160px] text-center relative">
+    <div className="py-[160px] text-center relative l:py-[100px]">
       <div className="smallTexts mb-[32px]">Contact</div>
-      <div className="text-[128px] clash_semiBold tracking-wider uppercase textWhiteStroke text-[#0f0f0f] leading-[110%]">
+      <div className="text-[128px] clash_semiBold tracking-wider uppercase textWhiteStroke text-[#0f0f0f] leading-[110%] l:text-[74px] md:text-[36px]">
         Let’s
       </div>
-      <div className="text-[128px] clash_semiBold tracking-wider uppercase leading-[110%]">
+      <div className="text-[128px] clash_semiBold tracking-wider uppercase leading-[110%] l:text-[74px] md:text-[44px]">
         connect
       </div>
       <div className="w-fit mx-auto mt-[32px]">

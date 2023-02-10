@@ -9,8 +9,10 @@ module.exports = {
       satoshi_light: "satoshi medium",
     },
     screens: {
-      xl: { max: "1850px" },
-      l: { max: "1600px" },
+      xl: { max: "1920px" },
+      l: { max: "1440px" },
+      md: { max: "960px" },
+      sm: { max: "480px" },
     },
   },
   plugins: [],

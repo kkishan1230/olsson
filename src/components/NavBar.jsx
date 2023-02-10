@@ -5,14 +5,12 @@ import Button from "./Button";
 
 const NavBar = () => {
   return (
-    <nav className="flex max-w-[1800px] mx-[auto] py-[43px] justify-between items-center xl:px-[30px]">
+    <nav className="flex max-w-[1920px] mx-[auto] py-[43px] justify-between items-center px-[60px] md:px-[30px]">
       <NavLink to="/">
         <img src={Logo} alt="" />
       </NavLink>
-      <div className="flex gap-8 items-center">
-        <NavLink to="/" className="smallText">
-          Projects
-        </NavLink>
+      <div className="flex gap-8 items-center l:hidden">
+        <NavLink to="/">Projects</NavLink>
         <NavLink to="/">Services</NavLink>
         <NavLink to="/">About</NavLink>
         <NavLink to="/">Blog</NavLink>

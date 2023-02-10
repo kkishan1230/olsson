@@ -9,10 +9,10 @@ import inVision from "../../images/invisionSquare.svg";
 
 const Testimonial = () => {
   return (
-    <div className="max-w-[1600px] mx-[auto] mb-[192px]">
+    <div className="max-w-[1720px] px-[60px] mx-[auto] mb-[192px] md:px-[30px] md:mb-[140px]">
       <Heading />
-      <div className="flex justify-between xl:px-[30px]">
-        <div className="flex flex-col gap-8 w-[32%]">
+      <div className="flex  justify-between l:flex-wrap l:gap-[40px] md:mt-0">
+        <div className="flex flex-col gap-8 w-[32%] l:w-[100%] l:flex-row md:flex-col">
           <ClientsComments
             heading="“Porta nibh venenatis cras sed felis eget velit aliquet sagittis.”"
             text="Ac tincidunt vitae semper quis lectus. Commodo elit at imperdiet dui accumsan sit. Integer vitae justo eget magna fermentum. "
@@ -29,7 +29,7 @@ const Testimonial = () => {
             imgLogo={visionStudio}
           />
         </div>
-        <div className="flex flex-col gap-8 w-[32%]">
+        <div className="flex flex-col gap-8 w-[32%] l:w-[100%] l:flex-row md:flex-col">
           <ClientsComments
             heading="“Velit sed ullamcorper morbi tincidunt”"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt."
@@ -47,7 +47,7 @@ const Testimonial = () => {
             imgLogo={creativeStd}
           />
         </div>
-        <div className="flex flex-col gap-8 w-[32%]">
+        <div className="flex flex-col gap-8 w-[32%] l:w-[100%] l:flex-row md:flex-col">
           <ClientsComments
             heading="“Porta nibh venenatis cras sed felis eget velit aliquet sagittis.”"
             text="Ac tincidunt vitae semper quis lectus. Commodo elit at imperdiet dui accumsan sit. Integer vitae justo eget magna fermentum. "
