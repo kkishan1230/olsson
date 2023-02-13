@@ -1,15 +1,13 @@
 import React from "react";
-import lynn from "../images/Lynn.png";
-import olsson from "../images/olsson.png";
 
 const CompanyName = () => {
   return (
-    <div className="flex max-w-[1920px] gap-[80px] mx-auto mt-[64px] px-[60px] l:max-w-[960px] md:px-[30px] sm:mt-[20px] sm:px-[10px] sm:justify-center sm:gap-[30px]">
-      <div>
-        <img src={lynn} alt="" />
+    <div className="company_name flex justify-center gap-8 max-w-[1920px] mx-auto mt-[64px] px-[60px] l:max-w-[960px] md:px-[30px] sm:mt-[20px] sm:px-[10px] sm:justify-center sm:gap-[30px]">
+      <div className="uppercase text-[80px] md:text-[48px] sm:text-[36px] font-clash_semibold text-[#0f0f0f] textWhiteStroke text-center">
+        lynn
       </div>
-      <div>
-        <img src={olsson} alt="" />
+      <div className="uppercase text-[80px] md:text-[48px] sm:text-[36px] font-clash_semibold text-center">
+        olsson
       </div>
     </div>
   );

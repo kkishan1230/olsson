@@ -1,13 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../images/olssonLogo.png";
 import Button from "./Button";
 
 const NavBar = () => {
   return (
     <nav className="flex max-w-[1920px] mx-[auto] py-[43px] justify-between items-center px-[60px] md:px-[30px] sm:py-[20px] sm:px-[10px]">
-      <NavLink to="/" className="sm:w-[70px]">
-        <img src={Logo} alt="" />
+      <NavLink
+        to="/"
+        className="xl:text-[80px] l:text-[64px] md:text-[48px] sm:text-[24px] uppercase font-clash_semibold hover:scale-95 transition-all duration-300"
+      >
+        olsson
       </NavLink>
       <div className="flex gap-8 items-center l:hidden">
         <NavLink to="/">Projects</NavLink>

@@ -11,7 +11,7 @@ import userImg from "../images/userImage.png";
 
 const ImagesGrid = () => {
   return (
-    <div className="relative  h-[62.5vw] flex overflow-hidden sm:h-[80vw]">
+    <div className="relative  h-[62.5vw] flex overflow-hidden sm:h-[80vw] grid_images">
       <div className="gridBg absolute"></div>
       <div className="flex gap-[34px] justify-center absolute left-[50%] translate-x-[-50%] min-w-[1920px] md:min-w-[100%] md:gap-2 ">
         <div className="flex flex-col gap-8 mt-[64px] md:mt-[32px] md:gap-2">
@@ -99,8 +99,8 @@ const ImagesGrid = () => {
         <div className="text-[80px] leading-[130%] tracking-wider clash_regular l:text-[48px] md:text-[21px] sm:text-[18px]">
           Creating captivating video and motion designs that tell your brand's
           story and are sure to grab the attention of your audience.
-          <span className="textWhiteStroke text-transparent cursor-pointer font-clash_semibold opacity-80">
-            Explore ↓
+          <span className="ml-[10px] textWhiteStroke text-transparent cursor-pointer font-clash_semibold opacity-80">
+            Explore&nbsp;↓
           </span>
         </div>
       </div>
