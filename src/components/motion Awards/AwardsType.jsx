@@ -14,13 +14,13 @@ const AwardsType = ({ imgSrc, head, year, paddingTop, paddingBottom }) => {
           <img
             src={imgSrc}
             alt=""
-            className={`transition-all  duration-700 ${
-              inView ? "none scale-1" : "scale-50"
+            className={`transition-all delay-200  duration-700 ${
+              inView ? "none scale-1" : "scale-0"
             }`}
           />
         </div>
         <div
-          className={`transition-all delay-500  duration-500 syne-heading sm:text-[14px] ${
+          className={`transition-all delay-[800ms]  duration-500 syne-heading sm:text-[14px] ${
             inView ? "none scale-y-1 opacity-1" : "scale-y-0 opacity-0"
           }`}
         >
