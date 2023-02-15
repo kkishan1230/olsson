@@ -16,7 +16,7 @@ const ImagesGrid = () => {
     setState(!state);
   };
   return (
-    <div className="relative  h-[62.5vw] flex overflow-hidden sm:h-[80vw] grid_images">
+    <div className="relative  xl:h-[62.5vw] flex overflow-hidden sm:h-[80vw] grid_images">
       <div className="gridBg absolute"></div>
       <div className="flex gap-[34px] justify-center absolute left-[50%] translate-x-[-50%] min-w-[1920px] md:min-w-[100%] md:gap-2 ">
         <div className="flex flex-col gap-8 mt-[64px] md:mt-[32px] md:gap-2">

@@ -35,6 +35,9 @@ const FrontPage = () => {
       <Marquee gradient={false} speed={50}>
         <SelectedWork />
         <SelectedWork />
+        <SelectedWork />
+        <SelectedWork />
+        <SelectedWork />
       </Marquee>
       <ImageWithHead />
       <MotionAwards />
@@ -49,11 +52,20 @@ const FrontPage = () => {
         <TopBar />
         <TopBar />
         <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
+        <TopBar />
       </Marquee>
       <LetsConnect />
-      {/* <hr className="border-b-[#ffffff] opacity-[12%] h-[1px]" /> */}
+      <hr className="border-b-[#ffffff] opacity-[12%] h-[1px]" />
       <Footer />
-      {/* <hr className="border-b-[#ffffff] opacity-[12%] h-[1px]" /> */}
+      <hr className="border-b-[#ffffff] opacity-[12%] h-[1px]" />
       <Copyright />
     </div>
   );
