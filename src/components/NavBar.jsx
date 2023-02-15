@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const NavBar = () => {
   return (
-    <nav className="flex max-w-[1920px] mx-[auto] py-[43px] justify-between items-center px-[60px] md:px-[30px] sm:py-[20px] sm:px-[10px]">
+    <nav className="flex max-w-[1920px] mx-[auto] py-[43px] justify-between items-center px-[60px] md:px-[30px] sm:py-[20px] sm:px-[10px] l:py-0">
       <NavLink
         to="/"
         className="xl:text-[80px] l:text-[64px] md:text-[48px] sm:text-[24px] uppercase font-clash_semibold hover:scale-95 transition-all duration-300"

@@ -8,8 +8,13 @@ import mobile from "../images/watchingMobile.png";
 import smoke from "../images/smoke.png";
 import girlImg3 from "../images/girlimg3.png";
 import userImg from "../images/userImage.png";
+import { useState } from "react";
 
 const ImagesGrid = () => {
+  const [state, setState] = useState(false);
+  const handleHover = () => {
+    setState(!state);
+  };
   return (
     <div className="relative  h-[62.5vw] flex overflow-hidden sm:h-[80vw] grid_images">
       <div className="gridBg absolute"></div>
@@ -78,7 +83,7 @@ const ImagesGrid = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-[1720px] px-[60px] mx-auto relative h-fit self-end z-[2] l:self-center md:w-[480px] md:px-[30px] sm:px-[10px]">
+      <div className="max-w-[1720px] px-[60px] mx-auto relative h-fit self-end z-[2] l:self-center md:w-[900px] md:px-[30px] sm:px-[10px]">
         <div className="flex items-center gap-8 mb-8 l:gap-2 sm:mb-2">
           <div>
             <img
@@ -99,7 +104,15 @@ const ImagesGrid = () => {
         <div className="text-[80px] leading-[130%] tracking-wider clash_regular l:text-[48px] md:text-[21px] sm:text-[18px]">
           Creating captivating video and motion designs that tell your brand's
           story and are sure to grab the attention of your audience.
-          <span className="ml-[10px] textWhiteStroke text-transparent cursor-pointer font-clash_semibold opacity-80">
+          <span
+            className={`transition-all duration-300 ml-[10px] textWhiteStroke text-transparent cursor-pointer font-clash_semibold  ${
+              state
+                ? ""
+                : "tracking-[7px] drop-shadow-[0_0_10px_rgba(255,255,255,1)]"
+            }`}
+            onMouseEnter={handleHover}
+            onMouseLeave={handleHover}
+          >
             Explore&nbsp;↓
           </span>
         </div>

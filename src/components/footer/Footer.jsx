@@ -7,7 +7,13 @@ import fb from "../../images/fbIcon.svg";
 import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="max-w-[1920px] px-[60px] py-[64px] mx-auto flex justify-between md:flex-col md:gap-[40px] md:px-[30px]">
+    <div className="footer max-w-[1920px] px-[60px] mt-[150px] py-[64px] mx-auto flex justify-between md:flex-col md:gap-[40px] md:px-[30px] bg-[rgba(53,134,255,0.85)] relative">
+      <div className="waves">
+        <div className="wave1 wave"></div>
+        <div className="wave3 wave"></div>
+        <div className="wave4 wave"></div>
+        <div className="wave2 wave"></div>
+      </div>
       <div className="flex flex-col justify-between gap-[24px]">
         <div className="flex items-center gap-[25px]">
           <div>
@@ -19,13 +25,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex gap-2 md:gap-8">
-          <div className="w-[50px] h-[50px] border-[1px] border-[rgba(255,255,255,0.12)] border-solid flex justify-center items-center rounded-full">
+          <div className="cursor-pointer transition-all duration-200 w-[50px] h-[50px] border-[1px] border-[rgba(255,255,255,0.12)] border-solid flex justify-center items-center rounded-full hover:translate-y-[-5px]">
             <img src={ig} alt="" className="w-[17px]" />
           </div>
-          <div className="w-[50px] h-[50px] border-[1px] border-[rgba(255,255,255,0.12)] border-solid flex justify-center items-center rounded-full">
+          <div className="cursor-pointer transition-all duration-200 w-[50px] h-[50px] border-[1px] border-[rgba(255,255,255,0.12)] border-solid flex justify-center items-center rounded-full hover:translate-y-[-5px]">
             <img src={twitter} alt="" className="w-[17px]" />
           </div>
-          <div className="w-[50px] h-[50px] border-[1px] border-[rgba(255,255,255,0.12)] border-solid flex justify-center items-center rounded-full">
+          <div className="cursor-pointer transition-all duration-200 w-[50px] h-[50px] border-[1px] border-[rgba(255,255,255,0.12)] border-solid flex justify-center items-center rounded-full hover:translate-y-[-5px]">
             <img src={fb} alt="" className="w-[17px]" />
           </div>
         </div>
@@ -47,7 +53,7 @@ const Footer = () => {
             Contact
           </NavLink>
           <NavLink to="/">
-            <Button text="more templates" />
+            <Button text="more templates" bg="#fff" />
           </NavLink>
         </div>
         <div className="w-[375px] l:w-auto flex flex-col gap-8 sm:gap-4">
