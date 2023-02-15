@@ -17,22 +17,28 @@ const ClientsComments = ({ heading, text, company, uName, imgLogo }) => {
         <img src={imgLogo} alt="" />
       </div>
       <div
-        className={`transition-all duration-700 delay-300 syne-heading mb-[16px] sm:text-[16px] ${
-          inView ? "translate-x-0 opacity-100" : "translate-x-[100px] opacity-0"
+        className={`md:translate-x-[0px]  transition-all duration-700 delay-500 syne-heading mb-[16px] sm:text-[16px] ${
+          inView
+            ? "translate-x-0 opacity-100  md:translate-y-0 "
+            : "l:translate-x-[100px] opacity-0 md:translate-y-[20px]"
         }`}
       >
         {heading}
       </div>
       <div
-        className={`transition-all duration-700 delay-700 mb-[32px] satoshi-para sm:text-[12px] ${
-          inView ? "translate-x-0 opacity-100" : "translate-x-[100px] opacity-0"
+        className={`md:translate-x-[0px]  transition-all duration-700 delay-[900ms] mb-[32px] satoshi-para sm:text-[12px] ${
+          inView
+            ? "translate-x-0 opacity-100  md:translate-y-0 "
+            : "l:translate-x-[100px] opacity-0 md:translate-y-[20px]"
         }`}
       >
         {text}
       </div>
       <div
-        className={`transition-all duration-700 delay-[1100ms] ${
-          inView ? "translate-x-0 opacity-100" : "translate-x-[100px] opacity-0"
+        className={`md:translate-x-[0px] transition-all duration-700 delay-[1100ms] ${
+          inView
+            ? "l:translate-x-0 md:translate-y-0 opacity-100"
+            : "l:translate-x-[100px] opacity-0 md:translate-y-[20px]"
         }`}
       >
         <div className="clash_semiBold mb-[4px]">{uName}</div>

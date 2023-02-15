@@ -53,7 +53,7 @@ const FrontPage = () => {
       <LetsConnect />
       {/* <hr className="border-b-[#ffffff] opacity-[12%] h-[1px]" /> */}
       <Footer />
-      <hr className="border-b-[#ffffff] opacity-[12%] h-[1px]" />
+      {/* <hr className="border-b-[#ffffff] opacity-[12%] h-[1px]" /> */}
       <Copyright />
     </div>
   );

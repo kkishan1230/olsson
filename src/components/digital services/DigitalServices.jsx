@@ -28,7 +28,7 @@ const DigitalServices = () => {
           Clients I’Ve worked with
         </div>
         <div
-          className={`flex max-w-[1265px]  justify-end gap-10 items-center flex-1 l:w-[100%] md:flex-wrap l:justify-center transition-all duration-[1.5s] ${
+          className={`flex max-w-[1265px]  justify-end gap-10 items-center flex-1 l:w-[100%] md:flex-wrap l:justify-center transition-all duration-[1.5s] md:translate-x-0 ${
             inView ? "none l:opacity-1" : "l:translate-x-[200px] l:opacity-0"
           } ${
             inView
